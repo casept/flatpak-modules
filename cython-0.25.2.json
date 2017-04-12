@@ -1,0 +1,30 @@
+{
+  "name": "cython",
+  "configure-args": [
+    "--enable-gpl",
+    "--enable-libass",
+    "--enable-libfreetype",
+    "--enable-libmp3lame",
+    "--enable-libopus",
+    "--enable-libtheora",
+    "--enable-libvorbis",
+    "--enable-libvpx",
+    "--enable-libx264",
+    "--enable-libx265",
+    "--enable-openssl",
+    "--enable-nonfree"
+  ],
+  "buildsystem": "simple",
+  "build-commands": [
+    "make",
+    ""
+  ],
+  "sources": [
+    {
+      "type": "archive",
+      "url": "https://github.com/cython/cython/archive/0.25.2.tar.gz",
+      "sha256": "206b6fc7e8cebe8e0529064a92e4f53f13a8f1d1f4dc173c32782ab134a2551e"
+    }
+  ]
+}
+
