@@ -1,23 +1,9 @@
 {
   "name": "cython",
-  "configure-args": [
-    "--enable-gpl",
-    "--enable-libass",
-    "--enable-libfreetype",
-    "--enable-libmp3lame",
-    "--enable-libopus",
-    "--enable-libtheora",
-    "--enable-libvorbis",
-    "--enable-libvpx",
-    "--enable-libx264",
-    "--enable-libx265",
-    "--enable-openssl",
-    "--enable-nonfree"
-  ],
   "buildsystem": "simple",
   "build-commands": [
     "make",
-    ""
+    "cp -r bin/* /app/bin/"
   ],
   "sources": [
     {
