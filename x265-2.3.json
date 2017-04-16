@@ -1,5 +1,6 @@
 {
   "name": "x265",
+  "buildsystem": "cmake",
   "subdir": "source",
   "sources": [
   {
