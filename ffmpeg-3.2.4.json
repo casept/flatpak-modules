@@ -1,6 +1,6 @@
 {
   "name": "ffmpeg",
-  "configure-args": [
+  "config-opts": [
     "--enable-gpl",
     "--enable-libass",
     "--enable-libfreetype",
