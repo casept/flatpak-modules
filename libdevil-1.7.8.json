@@ -1,5 +1,10 @@
 {
   "name": "libdevil",
+  "config-opts": [
+    "--enable-IL=yes",
+    "--enable-ILU=yes",
+    "--enable-ILUT=yes"
+  ],
   "sources": [
     {
       "type": "archive",
