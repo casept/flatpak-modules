@@ -2,7 +2,8 @@
   "name": "libcaca",
   "config-opts": [
     "--enable-static=no",
-    "--enable-shared=yes"
+    "--enable-shared=yes",
+    "--enable-python=no"
   ],
   "sources": [
   {
