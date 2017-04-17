@@ -12,7 +12,9 @@
     "--enable-libx264",
     "--enable-libx265",
     "--enable-openssl",
-    "--enable-nonfree"
+    "--enable-nonfree",
+    "--enable-shared",
+    "--disable-static"
   ],
 
   "sources": [
