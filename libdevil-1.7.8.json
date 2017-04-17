@@ -1,0 +1,16 @@
+{
+  "name": "libdevil",
+  "sources": [
+    {
+      "type": "archive",
+      "url": "https://github.com/LuaDist/libdevil/archive/1.7.8.tar.gz",
+      "sha256": "eaa088ea7544343750096fad2bcf8d14b907c6c3fe9714a56e2b54d391a2e25e"
+    },
+    {
+      "type": "patch",
+      /* We should probably include this patch in our repo */
+      "url": "http://ftp.netbsd.org/pub/pkgsrc/current/pkgsrc/devel/devIL/patches/patch-include_IL_il.h",
+      "sha256": "754f92963fadfe49b4658265d90f645eaee116da430fb9783f4babb82a2042f6"
+    }
+  ]
+}
