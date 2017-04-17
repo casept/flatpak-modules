@@ -1,4 +1,3 @@
-/* From https://github.com/ace13/flatpak-dwarffortress/blob/master/deps/libsdl-1.2.15.json */
 {
     "name": "libsdl",
     "sources": [
