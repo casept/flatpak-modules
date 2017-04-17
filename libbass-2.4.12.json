@@ -2,7 +2,7 @@
   "name": "libbass",
   "buildsystem": "simple",
   "build-commands": [
-    /* TODO: Autodetect x86/x64 and cp accordingly, currently only works on amd64 */
+    /* TODO: Autodetect architecture and cp accordingly, currently only works on amd64 */
     "cp x64/libbass.so /app/lib/"
   ],
   "sources": [
