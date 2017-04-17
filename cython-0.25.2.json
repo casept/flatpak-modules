@@ -2,8 +2,8 @@
   "name": "cython",
   "buildsystem": "simple",
   "build-commands": [
-    "make",
-    "cp -r bin/* /app/bin/"
+    "python ./setup.py install --prefix=/app",
+    "python3 ./setup.py install --prefix=/app"
   ],
   "sources": [
     {
