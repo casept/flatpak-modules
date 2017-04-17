@@ -8,8 +8,7 @@
     },
     {
       "type": "patch",
-      "path": "modules/patches/libdevil/patch-include_IL_il.h",
-      "sha256": "754f92963fadfe49b4658265d90f645eaee116da430fb9783f4babb82a2042f6"
+      "path": "modules/patches/libdevil/patch-include_IL_il.h.patch",
     }
   ]
 }
