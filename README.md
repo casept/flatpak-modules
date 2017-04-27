@@ -1,4 +1,8 @@
 ### A bunch of modules for inclusion in flatpak build recipes                                                                           
+
+#### Note     
+This repo is only compatible with flatpak-builder 0.9.3 and later due to some backwards-incompatible changes.     
+
 #### How to use                                                                                                                       
 Just add this repo as a submodule:                                                                                                 
 ```shell                                                                                                                                   
