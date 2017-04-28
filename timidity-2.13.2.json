@@ -12,7 +12,7 @@
     /* Replace timidity with a wrapper script */
     /* This is needed to make it work without passing the '-OO' flag to enable libao manually */
     "mv /app/bin/timidity /app/lib/timidity",
-    "echo '/app/lib/timidity -OO \"$@\"' > /app/bin/timidity",
+    "echo 'exec /app/lib/timidity -OO \"$@\"' > /app/bin/timidity",
     "chmod +x /app/bin/timidity"
   ],
   "sources": [
