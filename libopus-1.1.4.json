@@ -6,5 +6,11 @@
     "url": "http://downloads.xiph.org/releases/opus/opus-1.1.4.tar.gz",
     "sha256": "9122b6b380081dd2665189f97bfd777f04f92dc3ab6698eea1dbb27ad59d8692"
   }
+  ],
+  "cleanup": [
+    "/include",
+    "/lib/*.a",
+    "/lib/*.la",
+    "/lib/pkgconfig"
   ]
 }
