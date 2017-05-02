@@ -16,6 +16,12 @@
     "/include",
     "/lib/*.a",
     "/lib/*.la",
-    "/lib/pkgconfig"
+    "/lib/pkgconfig",
+    "/man",
+    "/share/aclocal",
+    "/share/doc",
+    "/share/gtk-doc",
+    "/share/man",
+    "/share/pkgconfig"
   ]
 }

@@ -29,7 +29,12 @@
     "/lib/*.a",
     "/lib/*.la",
     "/lib/pkgconfig",
-    "/share/doc/"
+    "/man",
+    "/share/aclocal",
+    "/share/doc",
+    "/share/gtk-doc",
+    "/share/man",
+    "/share/pkgconfig"
   ]
 }
 

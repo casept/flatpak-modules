@@ -11,6 +11,18 @@
   "buildsystem": "simple",
   "build-commands": [
     "install -Dm755 src/ladspa.h /app/include/ladspa.h"
+  ],
+  "cleanup": [
+    "/include",
+    "/lib/*.a",
+    "/lib/*.la",
+    "/lib/pkgconfig",
+    "/man",
+    "/share/aclocal",
+    "/share/doc",
+    "/share/gtk-doc",
+    "/share/man",
+    "/share/pkgconfig"
   ]
 }
 

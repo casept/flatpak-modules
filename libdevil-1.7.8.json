@@ -15,5 +15,17 @@
       "type": "patch",
       "path": "patches/libdevil/patch-include_IL_il.h.patch"
     }
+  ],
+  "cleanup": [
+    "/include",
+    "/lib/*.a",
+    "/lib/*.la",
+    "/lib/pkgconfig",
+    "/man",
+    "/share/aclocal",
+    "/share/doc",
+    "/share/gtk-doc",
+    "/share/man",
+    "/share/pkgconfig"
   ]
 }
